@@ -25,8 +25,10 @@ const ExForm = ({handleCharge, charge, amount, handleAmount, handleSubmit, edit 
             ></input>
           </div>  
         </div>
-        <button type="submit" className="btn submit-btn">제출</button>
-          {edit? "수정" : "제출"}
+        <button type="submit" className="btn submit-btn">
+            {edit? "수정" : "제출"}
+        </button>
+         
       </form>
     )
 }
